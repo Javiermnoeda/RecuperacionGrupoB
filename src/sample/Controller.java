@@ -22,7 +22,7 @@ public class Controller {
 
     @FXML
     private void Click (MouseEvent event){
-        System.out.println("Abriendo Ventana");
+        System.out.println("Se abre la ventana");
         try {
             Parent root = FXMLLoader.load(getClass().getResource("sample2.fxml"));
             Stage primaryStage = new Stage();
